@@ -20,11 +20,11 @@ app.post(`/${solver_endpoint}`, (req, res) => {
     console.log(`Hit: /${solver_endpoint}`);
 
     // Get the model and the options from the request
-    console.log(`Model received: \n ${JSON.stringify(req.body)}`);
+    // console.log(`Model received: \n ${JSON.stringify(req.body)}`);
     const model = req.body;
 
     const response = solver(model);
-    
+
     res.send(response);
 });
 

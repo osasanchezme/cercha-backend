@@ -23,3 +23,11 @@ After creating a folder that will contain the "project". Run the following seque
 
 After cloning the repository locally in your machine. Run the following commands:
 - Install all the packages: `npm install`
+- Run the package: `npm start`
+## Input data
+<img src="./cercha.svg">
+
+## Formulas used
+$$ [U_{N}] = [K_{NN}]^{-1} [F_N] $$
+$$ [F_{A}] = [K_{AN}] [U_N] $$
+$$ [\hat{F_e}] = [T]^{T} [K_{e(g)}] [U_{e(g)}]$$
