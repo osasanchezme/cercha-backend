@@ -5,7 +5,6 @@ const app = express();
 
 // Solver handler
 const solver = require("./solver.js");
-const { response } = require("express");
 
 // Config variables
 port = 3008,
